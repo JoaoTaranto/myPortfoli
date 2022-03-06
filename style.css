@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: Black;
+    font-size: 18px;
+}
+
+header,
+footer {
+    background: rgb(145,27,255);
+    background: linear-gradient(90deg, rgba(145,27,255,1) 0%, rgba(106,17,182,1) 35%, rgba(53,0,103,1) 100%);
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+    clear: both;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    padding: 30px;
+    margin-top: 0px;
+    height: 150px;
+}
+
+
+.btn-primary {
+    background-color: rgb(0, 51, 255);
+    margin: 0 10px;
+}
+
+.btn-primary:hover {
+    background-color: rgb(9, 49, 148);
+}
+
+
+.card {
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.col {
+    justify-content: center;
+}
+.btn {
+    color: black;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.SetupIMG {
+    margin-top: 50px;
+}
+
+
+#logo2 {
+    font-size: 40px;
+    color: white;
+    margin-left: 100px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Menu-Sobre {
+    max-width: 430px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.sobre-single {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.sobre-single:hover {
+    color: #b1b1b1;
+    transition: 0.3s;
+}
+
+h2 {
+    margin-top: 20px;
+    max-width: 450px;
+}
+h3 {
+    margin-top: 30px;
+}
+
+h3,
+h5,
+p{
+    padding: 8px;
+}
+
+.IMGLuisGomes,
+.img-fluid {
+    margin-top: 30px;
+}
+.card-img-top {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#SobreMim {
+    padding-top: 20px;
+}
+.Certificados,
+#Habilidades {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.Certificados img {
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 40%;
+    height: auto;
+}
+
+
+/* Media Query; Ajuste Responsividade */
+
+@media screen and (max-width: 576px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    #logo2 {
+        text-align: left;
+        width: 100%;
+        margin: 0 0 0 0;
+        font-size: 25px;
+    }
+
+
+    .card {
+        margin: 0 0 0 0;
+        width: 100%;
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 434px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    #logo2 {
+        text-align: left;
+        width: 100%;
+        margin: 0 0 0 0;
+        font-size: 25px;
+    }
+
+
+    .card {
+        margin: 0 0 0 0;
+        width: 80%;
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width: 378px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    #logo2 {
+        text-align: left;
+        width: 90%;
+        margin: 0 0 0 0;
+        font-size: 25px;
+    }
+
+
+    .card {
+        margin: 0 0 0 0;
+        width: 40%;
+        height: auto;
+        margin-left: 10px;
+    }
+}
